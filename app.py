@@ -8,7 +8,7 @@ def data_load(filename):
     with open(filename, "r") as f:
         return json.load(f)
 
-data = data_load(r"C:\Users\ASUS\Desktop\python code for my project\Data scince course python\Data_scine_project_coder_in_dehli\massive_data.txt")
+data = data_load("massive_data.txt")
 
 st.title("🤝 Friends & Pages Recommendation App")
 
