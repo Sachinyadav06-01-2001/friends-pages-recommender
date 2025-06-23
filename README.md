@@ -115,3 +115,6 @@ User ID: 10
 
 ## 📄 License
 This project is open-source and free to use under the MIT License.
+
+
+🚀 Live Demo: [Click Here](https://friends-pages-recommender-emfb2w9dcucaxwjfxknukl.streamlit.app/)
