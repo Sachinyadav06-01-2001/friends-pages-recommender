@@ -19,7 +19,7 @@ def people_you_may_know(user_id,data):
    sorted_suggetion= sorted(suggetion_frinds.items(),key= lambda x: x[1],reverse=True)
    return [(user,mutual_frinds) for (user,mutual_frinds) in sorted_suggetion  ]
              
-data=data_load(r"C:\Users\ASUS\Desktop\python code for my project\Data scince course python\Data_scine_project_coder_in_dehli\massive_data.txt")
+data = data_load("massive_data.txt")
 user_id=1
 print(people_you_may_know(user_id,data))
    
